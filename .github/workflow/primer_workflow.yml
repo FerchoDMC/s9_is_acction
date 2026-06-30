@@ -1,0 +1,10 @@
+name: Primer workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mesaje
+        run: echo "hola desde GitHub Actions"
